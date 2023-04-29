@@ -1,0 +1,31 @@
+{
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "node_modules/": true,
+    "bin": true,
+    "dist": true,
+    "public": false,
+    ".build": true,
+    ".husky": true,
+    ".dev": true,
+    ".ebextensions": true,
+    ".elasticbeanstalk": true
+  },
+  "files.eol": "\r\n",
+  "cSpell.words": ["datasources", "Percies", "typeorm"],
+  "typescript.preferences.importModuleSpecifier": "shortest"
+}
